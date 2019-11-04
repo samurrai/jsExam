@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+body{
+    background: #707d7d;
+}
+header{
+    width: 100%;
+    height: 120px;
+    background: #a3b5b5;
+    box-shadow: 0 0 10px black;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+    color: #28407d;
+    font-size: 2em;
+    font-weight: bolder;
+}
+#logo{
+    width: 300px;
+    height: 120px;
+    margin-right: 70%;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;    
+}
+#container div{
+    width: 30%;
+    height: 600px;
+    background: rgba(163, 181, 181, 0.3);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.4);
+    font-size: 2em;
+    color: #28407d;
+    
+}
+#container div:hover{
+    background: rgba(163, 181, 181, 0.7);
+}
+#container div div{
+    width: 100%;
+    height: 250px;
+    opacity: 0.8;
+    box-shadow: none;
+}
+#container div:nth-child(1) div, #container div:nth-child(1) div:hover{
+    background: url("London.jpg");
+    background-size: cover;
+}
+
+#container div:nth-child(2) div, #container div:nth-child(2) div:hover{
+    background: url("Astana.jpg");
+    background-size: cover;
+}
+
+#container div:nth-child(3) div, #container div:nth-child(3) div:hover{
+    background: url("Moscow.jpg");
+    background-size: cover;
+}
+
+p{
+    margin-top: 30px;
+}
